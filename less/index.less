@@ -1,15 +1,18 @@
 @bc:#0369db;
+@orange:#fe6e20;
 .left(){
   margin-left: .24rem;
 }
 .right(){
   margin-right: .24rem;
 }
-
+//顶部
 header{
   height: .88rem;
   background: @bc;
   position: relative;
+  text-align: center;
+  min-height: 50px!important;
   .sgq_menu{
     margin-top: .29rem;
     float: left;
@@ -20,25 +23,28 @@ header{
     .left();
   }
   .sgq_logo{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 2.5rem;
+    display: inline-block;
     margin-top: .22rem;
-    transform: translateX(.5rem);
-    &>span{
-      float: left;
-      width: .60rem;
-      height: .52rem;
-      background: url("../images/tupianqie_03.png")  no-repeat;
-      background-size:.6rem .52rem;
+    a{
+      display: block;
+      width: 100%;
+      height:100%;
+      &>span{
+        //float: left;
+        display: inline-block;
+        width: .60rem;
+        height: .52rem;
+        color: #fff;
+        font-size: .5rem;
+        vertical-align: middle;
+      }
     }
+
     p{
-      float: left;
-      width: 1.34rem;
-      height: .52rem;
+      display: inline-block;
+      //float: left;
       margin-top: -.04rem;
+      vertical-align: middle;
       b{
         font-size: .26rem;
         color: #fff;
@@ -69,4 +75,236 @@ header{
     background-size: .4rem .4rem;
     .right();
   }
+}
+//导航
+nav{
+  padding: 0 0.24rem;
+  text-align: justify;
+  line-height: .88rem;
+  height: .88rem;
+  a{
+    display: inline-block;
+    box-sizing: border-box;
+    height: .88rem;
+  }
+  &:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+  .hot{
+    border-bottom: 2px solid @bc;
+  }
+
+}
+
+//banner
+.sgq_banner{
+  height: 4.7rem;
+  background: #444;
+  position: relative;
+  .sgq_banner_info{
+    width: 7.02rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #989898;
+    height: .7rem;
+    padding: 0 .24rem;
+    line-height: .7rem;
+    .sgq_banner_toutiao{
+      float: left;
+      color: #fff;
+      .sgq_banner_laba{
+        display: inline-block;
+        width: .36rem;
+        height: .28rem;
+        background: #fff;
+        vertical-align: middle;
+      }
+      b{
+        font-size: .24rem;
+        vertical-align: middle;
+      }
+    }
+    .sgq_banner_info_con{
+      float: left;
+      width: 4.25rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: #e2e7f1;
+      height: 100%;
+      font-size: .22rem;
+      white-space: nowrap;
+    }
+    .sgq_banner_info_go{
+      float: right;
+      span{
+        display: inline-block;
+        vertical-align: middle;
+        width: .4rem;
+        height: .4rem;
+        background: #fff;
+      }
+
+    }
+  }
+}
+
+
+//科学实训
+.sgq_train{
+  background: #fff;
+  padding-top:.64rem ;
+  .sgq_train_header{
+    width: 3.96rem;
+    height: 1.10rem;
+    margin: 0 auto .56rem;
+    background: url("../images/tupianqie_20.png") no-repeat;
+    background-size: 3.96rem 1.10rem;
+  }
+  .sgq_train_con{
+    width: 7.02rem;
+    padding: 0 .24rem;
+    ul{
+      overflow: hidden;
+      li{
+        width: 3.4rem;
+        float: left;
+        .sgq_train_title{
+          width: 3.40rem;
+          height: 1.16rem;
+          background: @bc;
+          color: #fff;
+          text-align: center;
+          line-height:  1.16rem;
+          span{
+            display: inline-block;
+            width: .56rem;
+            height: .7rem;
+            background: url("../images/ui.svg") no-repeat;
+            background-size: .56rem .7rem;
+            vertical-align: middle;
+            margin-right: .10rem;
+          }
+          p{
+            display: inline-block;
+            vertical-align: middle;
+            line-height: .38rem;
+            font-size: .3rem;
+            text-align: left;
+
+            b{
+              font-weight: normal;
+            }
+          }
+        }
+        .sgq_train_info{
+          border: 1px dashed @bc;
+          margin-top: .03rem;
+          padding: .32rem .08rem .39rem;
+          .sgq_train_miaoshu{
+            padding:0 .1rem;
+            color: #666;
+            font-size: .24rem;
+          }
+          h3{
+            color: @bc;
+            font-size: .26rem;
+            text-align: center;
+            margin-top: .5rem;
+            margin-bottom: .11rem;
+          }
+          .sgq_train_shixun {
+            text-align: justify;
+            span{
+              display: inline-block;
+              margin-right: .06rem;
+              border-radius: .19rem;
+              height: .38rem;
+              border: 1px solid #444;
+              padding: 0 .15rem ;
+              text-align: center;
+              box-sizing: border-box;
+              line-height: .38rem;
+              margin-top: .14rem;
+              font-size: .24rem;
+            }
+            span:nth-child(2){
+              margin-right: 0;
+            }
+            span:nth-child(4){
+              margin-right: 0;
+            }
+          }
+          .sgq_train_xiangmu{
+            padding-left: .38rem;
+            margin-bottom: .6rem;
+            h4{
+              color: #444;
+              font-size: .24rem;
+            }
+            p{
+              color: #666;
+              font-size: .2rem;
+            }
+          }
+          .sgq_train_ban{
+            padding-left: .38rem;
+            margin-bottom: .4rem;
+            p{
+              color: #777;
+              font-size: .2rem;
+              span{
+                font-size: .24rem;
+                color: #444;
+              }
+            }
+          }
+          .sgq_train_btn{
+            margin: 0 auto;
+            width: 1.76rem;
+            height: .7rem;
+            a{
+              display: block;
+              width: 1.76rem;
+              height: .7rem;
+              background: url("../images/tupianqie_30.png") no-repeat;
+              background-size:1.76rem .7rem;
+            }
+
+          }
+        }
+      }
+      li:first-child{
+        margin-right: .22rem;
+      }
+      li:last-child{
+        .sgq_train_title{
+          background: @orange;
+          span{
+            width: .56rem;
+            height: .7rem;
+            background: url("../images/web.svg") no-repeat;
+            background-size: .56rem .7rem;
+          }
+        }
+        .sgq_train_info{
+          border: 1px dashed @orange;
+          h3{
+            color: @orange;
+          }
+          .sgq_train_btn{
+            a{
+              background: url("../images/tupianqie_33.png") no-repeat;
+              background-size:1.76rem .7rem;
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+
 }
