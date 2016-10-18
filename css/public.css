@@ -1,0 +1,23 @@
+*{
+	font-family:"Helvetica","Arial","Microsoft YaHei","黑体","宋体",sans-serif;;
+}
+
+body,ul,li,ol,dl,dt,dd,input,form,h1,h2,h3,h4,h5,h6,p,table,tr,td,th{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: normal;
+}
+body{
+	background-color: #f5f5f5;
+	font-size: 16px;
+}
+
+img{border:0;}
+
+a{
+	text-decoration: none;
+	color: #333;
+	-webkit-transition:color 0.2s linear,border 0.3s linear;
+	transition: color 0.2s linear,border 0.3s linear;
+}

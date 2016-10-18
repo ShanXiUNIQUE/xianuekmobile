@@ -1,0 +1,63 @@
+header {
+  height: .88rem;
+  background: #0369db;
+  position: relative;
+}
+header .sgq_menu {
+  margin-top: .29rem;
+  float: left;
+  width: .42rem;
+  height: .30rem;
+  background: url("../images/tupianqie_09.png") no-repeat;
+  background-size: .42rem .3rem;
+  margin-left: .24rem;
+}
+header .sgq_logo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 2.5rem;
+  margin-top: .22rem;
+  transform: translateX(0.5rem);
+}
+header .sgq_logo > span {
+  float: left;
+  width: .60rem;
+  height: .52rem;
+  background: url("../images/tupianqie_03.png") no-repeat;
+  background-size: .6rem .52rem;
+}
+header .sgq_logo p {
+  float: left;
+  width: 1.34rem;
+  height: .52rem;
+  margin-top: -0.04rem;
+}
+header .sgq_logo p b {
+  font-size: .26rem;
+  color: #fff;
+}
+header .sgq_logo p span {
+  font-size: .14rem;
+  color: #fff;
+  float: left;
+  margin-right: .09rem;
+}
+header .sgq_logo p i {
+  width: .02rem;
+  height: .02rem;
+  background: #fff;
+  float: left;
+  margin-right: .09rem;
+  margin-top: .1rem;
+}
+header .sgq_tel {
+  margin-top: .24rem;
+  float: right;
+  width: .4rem;
+  height: .4rem;
+  background: url("../images/tupianqie_06.png") no-repeat;
+  background-size: .4rem .4rem;
+  margin-right: .24rem;
+}
