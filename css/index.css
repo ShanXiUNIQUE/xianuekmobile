@@ -331,9 +331,9 @@ nav .hot {
   font-size: .24rem;
   color: #fff;
   width: 2.49rem;
-  height: 1.29rem;
+  line-height: .34rem;
+  height: 1.28rem;
   overflow: hidden;
-  text-overflow: ellipsis;
   margin: 0 auto;
   margin-top: .2rem;
 }
@@ -348,6 +348,8 @@ nav .hot {
   text-align: center;
   line-height: .46rem;
   font-size: .24rem;
+  min-width: 85px;
+  min-height: 20px;
 }
 .sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_btn a {
   display: block;
