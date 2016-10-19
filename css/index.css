@@ -134,6 +134,7 @@ nav .hot {
 }
 .sgq_train {
   background: #fff;
+  padding-bottom: .4rem;
   padding-top: .64rem ;
 }
 .sgq_train .sgq_train_header {
@@ -260,16 +261,18 @@ nav .hot {
   margin-right: .22rem;
 }
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_title {
-  background: #fe6e20;
+  background: #444;
+  color: #fe6e20;
 }
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_title span {
   width: .56rem;
   height: .7rem;
   background: url("../images/web.svg") no-repeat;
   background-size: .56rem .7rem;
+  color: #fe6e20;
 }
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_info {
-  border: 1px dashed #fe6e20;
+  border: 1px dashed #a0a0a0;
 }
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_info h3 {
   color: #fe6e20;
@@ -277,4 +280,124 @@ nav .hot {
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_info .sgq_train_btn a {
   background: url("../images/tupianqie_33.png") no-repeat;
   background-size: 1.76rem .7rem;
+}
+.sgq_team .sgq_team_con {
+  width: 7.02rem;
+  padding: 0 .24rem;
+  margin-top: .54rem;
+}
+.sgq_team .sgq_team_con ul li {
+  background: url("../images/liuzhao.jpg") no-repeat;
+  background-size: cover;
+  width: 3.4rem;
+  float: left;
+  margin-top: .8rem;
+  margin-bottom: .5rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao {
+  padding-top: 1px;
+  background: rgba(0, 0, 0, 0.8);
+  padding-bottom: .28rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_pic {
+  width: 1.55rem;
+  height: 1.55rem;
+  border: .05rem solid #fff;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: -0.8rem;
+  background: url("../images/liuzhao.jpg") no-repeat;
+  background-size: 100%;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_name {
+  width: 2.64rem;
+  margin: 0 auto;
+  border-bottom: 1px dashed #959595;
+  color: #fff;
+  text-align: center;
+  padding-top: .26rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_name b {
+  font-size: .26rem;
+  line-height: .26rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_name p {
+  font-size: .22rem;
+  line-height: .22rem;
+  margin-top: .12rem;
+  margin-bottom: .21rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_jianjie {
+  font-size: .24rem;
+  color: #fff;
+  width: 2.49rem;
+  height: 1.29rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 auto;
+  margin-top: .2rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_btn {
+  margin: 0 auto;
+  margin-top: .42rem;
+  width: 1.9rem ;
+  height: .46rem;
+  border-radius: .23rem;
+  border: 1px solid #d65f22;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: .46rem;
+}
+.sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_btn a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #d65f22;
+}
+.sgq_team .sgq_team_con ul li:nth-child(2n+1) {
+  margin-right: .22rem;
+}
+.sgq_team .sgq_team_con ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.sgq_result {
+  background: #fff;
+}
+.sgq_public_header {
+  text-align: center;
+}
+.sgq_public_header h2 {
+  font-size: .36rem;
+  color: #222;
+  margin-top: .42rem;
+  line-height: .48rem;
+}
+.sgq_public_header p {
+  font-size: .24rem;
+  color: #2a2a2a;
+  line-height: .46rem;
+}
+.sgq_public_header div {
+  display: inline-block;
+  width: .2rem;
+  height: 1px;
+  background: #0369db;
+  margin-top: .15rem;
+}
+.sgq_public_more {
+  margin: 0 auto;
+  width: 3.35rem;
+  height: .65rem;
+  background: #fe6e20;
+  border-radius: .15rem;
+  line-height: .65rem;
+}
+.sgq_public_more a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
 }

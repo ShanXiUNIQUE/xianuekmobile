@@ -155,6 +155,7 @@ nav{
 //科学实训
 .sgq_train{
   background: #fff;
+  padding-bottom: .4rem;
   padding-top:.64rem ;
   .sgq_train_header{
     width: 3.96rem;
@@ -281,16 +282,18 @@ nav{
       }
       li:last-child{
         .sgq_train_title{
-          background: @orange;
+          background: #444;
+          color: @orange;
           span{
             width: .56rem;
             height: .7rem;
             background: url("../images/web.svg") no-repeat;
             background-size: .56rem .7rem;
+            color: @orange;
           }
         }
         .sgq_train_info{
-          border: 1px dashed @orange;
+          border: 1px dashed #a0a0a0;
           h3{
             color: @orange;
           }
@@ -307,4 +310,147 @@ nav{
 
   }
 
+}
+//讲师团队
+.sgq_team{
+  .sgq_team_con{
+    width: 7.02rem;
+    padding: 0 .24rem;
+    margin-top: .54rem;
+    ul{
+      li{
+        background: url("../images/liuzhao.jpg") no-repeat;
+        background-size: cover;
+        width: 3.4rem;
+        float: left;
+        margin-top: .8rem;
+        margin-bottom: .5rem;
+        .sgq_team_zhezhao{
+          padding-top: 1px;
+          background: rgba(0,0,0,.8);
+          padding-bottom: .28rem;
+          .sgq_team_pic{
+            width: 1.55rem;
+            height: 1.55rem;
+            border: .05rem solid #fff;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-top: -.8rem;
+            background: url("../images/liuzhao.jpg") no-repeat;
+            background-size: 100%;
+          }
+          .sgq_team_name{
+            width: 2.64rem;
+            margin: 0 auto;
+            border-bottom: 1px dashed #959595;
+            color: #fff;
+            text-align: center;
+            padding-top: .26rem;
+            b{
+              font-size: .26rem;
+              line-height: .26rem;
+            }
+            p{
+              font-size: .22rem;
+              line-height: .22rem;
+              margin-top: .12rem;
+              margin-bottom: .21rem;
+            }
+          }
+          .sgq_team_jianjie{
+            font-size: .24rem;
+            color: #fff;
+            width: 2.49rem;
+            height: 1.29rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 0 auto;
+            margin-top: .2rem;
+          }
+          .sgq_team_btn{
+            margin: 0 auto;
+            margin-top: .42rem;
+            width:1.9rem ;
+            height: .46rem;
+            border-radius: .23rem;
+            border: 1px solid #d65f22;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: .46rem;
+            a{
+              display: block;
+              width: 100%;
+              height: 100%;
+              color: #d65f22;
+            }
+          }
+        }
+
+      }
+      li:nth-child(2n+1){
+        margin-right: .22rem;
+      }
+    }
+    ul:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+
+}
+//实训效果
+.sgq_result{
+  background: #fff;
+  .sgq_public_item{
+
+  }
+
+}
+
+
+
+
+
+//公共标题
+.sgq_public_header{
+  text-align: center;
+  h2{
+    font-size: .36rem;
+    color:#222;
+    margin-top: .42rem;
+    line-height: .48rem;
+  }
+  p{
+    font-size: .24rem;
+    color:#2a2a2a;
+    line-height: .46rem;
+  }
+  div{
+    display: inline-block;
+    width: .2rem;
+    height: 1px;
+    background: @bc;
+    margin-top: .15rem;
+  }
+}
+//公共选项卡
+.sgq_public_item{
+
+}
+//公共更多
+.sgq_public_more {
+  margin: 0 auto;
+  width: 3.35rem;
+  height: .65rem;
+  background: @orange;
+  border-radius: .15rem;
+  line-height: .65rem;
+  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+  }
 }
