@@ -554,6 +554,8 @@ nav{
 }
 //就业成果
 .sgq_work{
+  background: #fff;
+  padding-bottom: .34rem;
   .sgq_work_con{
 
     .sgq_work_box{
@@ -565,10 +567,63 @@ nav{
           .sgq_work_info{
             width: 2.8rem;
             height: 3.85rem;
+            margin-bottom: .4rem;
+            float: left;
+            .sgq_work_img{
+              width: 2.56rem;
+              height: 1.92rem;
+              position: relative;
+              img{
+                width: 2.56rem;
+                height: 1.92rem;
+              }
+              .sgq_work_pstu{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 1.67rem;
+                height: .4rem;
+                background: url("../images/mianshizuopin.png") no-repeat;
+                background-size: contain;
+              }
+            }
+            .sgq_work_stu{
+              margin-top: .28rem;
+              h3{
+                font-size: .28rem;
+                color: #111;
+                font-weight: bold;
+              }
+              p{
+                font-size: .22rem;
+                color: #444;
+                display: inline-block;
+                border-bottom: 1px dashed #818181;
+                padding-bottom: .1rem;
+              }
+            }
+            .sgq_work_company{
+              margin-top: .2rem;
+              p{
+                font-size: .22rem;
+                color: #fe6e20;
+                span{
+                  font-size: .3rem;
+                  font-weight: bold;
+                }
+              }
+              h6{
+                font-size: .22rem;
+                width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+              }
+
+            }
           }
           .sgq_work_info:nth-child(2n-1){
             margin-right: .49rem;
-
           }
         }
       }
@@ -579,6 +634,176 @@ nav{
 
 }
 
+//辐射全国
+.sgq_effect{
+  width: 7.02rem;
+  margin: 0 auto;
+  padding-bottom: .67rem;
+  .sgq_effect_con{
+    text-align: center;
+    img{
+      width: 6.9rem;
+      height: 5.49rem;
+    }
+    p{
+      text-align: center;
+      font-size: .24rem;
+      color: #444;
+      span{
+        b{
+          color: #e67030;
+        }
+      }
+    }
+  }
+}
+//优逸新闻
+.sgq_news{
+  background: #fff;
+  padding-top: .53rem;
+  .sgq_public_item{
+    margin-bottom: 0;
+    ul{
+      float: right;
+    }
+    .sgq_news_title{
+      font-size: .28rem;
+      color: #111;
+      font-weight: bold;
+      float: left;
+      span{
+        display: inline-block;
+        width: .27rem;
+        height: .31rem;
+      }
+    }
+    .sgq_pubulic_menu{
+      margin-right: .25rem;
+    }
+    .sgq_pubulic_menu:last-child{
+      margin-right: 0;
+    }
+  }
+  .sgq_news_box{
+      width: 7rem;
+      height: 2.23*4rem ;
+      margin:  0 auto;
+    .sgq_news_info{
+      height: 2.23rem;
+      border-bottom: 1px dashed #dcdcdc;
+      .sgq_news_img{
+        float: left;
+        position: relative;
+        a{
+          display: block;
+          margin-top: .35rem;
+          width: 2rem;
+          height: 1.5rem;
+          img{
+            width: 2rem;
+            height: 1.5rem;
+          }
+        }
+        &>img{
+          position: absolute;
+          top: .35rem;
+          left: 0;
+          width: .34rem;
+          height: .14rem;
+        }
+      }
+      .sgq_news_xinxi{
+        float: left;
+        width: 4.73rem;
+        margin-left: .26rem;
+        margin-top: .35rem;
+        h3{
+          line-height: .26rem;
+          a{
+            color: #111;
+            font-size: .26rem;
+            font-weight: bold;
+          }
+        }
+        p{
+          font-size: .24rem;
+          color: #333;
+          margin-top: .24rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin-bottom: .3rem;
+        }
+        div{
+          span{
+            font-size: .24rem;
+            color: #666;
+            display: inline-block;
+            vertical-align: middle;
+            a{
+              color: #666;
+              display: inline-block;
+              vertical-align: middle;
+            }
+          }
+          .sgq_xian{
+            display: inline-block;
+            vertical-align: middle;
+            width: 1px;
+            background: #666;
+            height: .2rem;
+            margin: 0 .18rem;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+
+//优逸知识库
+.sgq_knowlage{
+  background: #fff;
+  padding-top: .4rem;
+  padding-bottom: .37rem;
+  .sgq_knowlage_con{
+    width: 7.02rem;
+    margin: 0 auto;
+    padding-left: .37rem;
+    ul{
+      overflow: hidden;
+    }
+    li{
+      float: left;
+      width: 2.88rem;
+      .sgq_knowlage_img{
+        img{
+          width: 2.88rem;
+          height: 2.16rem;
+        }
+
+      }
+      p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #222;
+        font-size: .22rem;
+      }
+
+    }
+    li:nth-child(2n+1){
+      margin-right: .47rem;
+    }
+  }
+}
+
+//报名通道
+.sgq_join{
+  height: 8.46rem;
+
+}
 
 
 //公共标题
@@ -638,6 +863,16 @@ nav{
     }
 
 
+  }
+  &>a{
+    float: right;
+    font-size: .22rem;
+    color: #777;
+    margin-top: .1rem ;
+    margin-right: .4rem;
+  }
+  &>div{
+    float: left;
   }
 
 }
