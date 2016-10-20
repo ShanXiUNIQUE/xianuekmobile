@@ -220,7 +220,6 @@ nav{
             text-align: justify;
             span{
               display: inline-block;
-              margin-right: .06rem;
               border-radius: .19rem;
               height: .38rem;
               border: 1px solid #444;
@@ -313,6 +312,7 @@ nav{
 }
 //讲师团队
 .sgq_team{
+  margin-bottom: .4rem;
   .sgq_team_con{
     width: 7.02rem;
     padding: 0 .24rem;
@@ -328,7 +328,7 @@ nav{
         .sgq_team_zhezhao{
           padding-top: 1px;
           background: rgba(0,0,0,.8);
-          padding-bottom: .28rem;
+          padding-bottom: .48rem;
           .sgq_team_pic{
             width: 1.55rem;
             height: 1.55rem;
@@ -365,11 +365,14 @@ nav{
             height: .32*4rem;
             overflow: hidden;
             margin: 0 auto;
-            margin-top: .2rem;
+            margin-top: .4rem;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp:4;
           }
           .sgq_team_btn{
             margin: 0 auto;
-            margin-top: .42rem;
+            margin-top: .62rem;
             width:1.9rem ;
             height: .46rem;
             border-radius: .23rem;
@@ -405,24 +408,188 @@ nav{
 //实训效果
 .sgq_result{
   background: #fff;
+  padding-bottom: .4rem;
   .sgq_public_item{
 
+  }
+  .sgq_result_box{
+    width:7.02rem;
+    height: 9.6rem;
+    margin: 0 auto;
+    margin-bottom: .53rem;
+    ul{
+      height: 9.6rem;
+      li{
+        height: 9.6rem;
+        .sgq_result_zhanshi{
+          overflow: hidden;
+          .sgq_result_img,.sgq_result_info{
+            float: left;
+          }
+          .sgq_result_img{
+            width: 2.66rem;
+            height: 5.09rem;
+            background: url("../images/sgq_shouji_03.png") no-repeat;
+            background-size: contain;
+            margin-right: .45rem;
+            margin-left: .45rem;
+            position: relative;
+            .sgq_result_video_box{
+              width: 2.3rem;
+              height: 3.9rem;
+              overflow: hidden;
+              position: absolute;
+              top:.6rem;
+              left: .15rem;
+            }
+          }
+          .sgq_result_info{
+            width: 3.45rem;
+            padding-top: .4rem;
+            h3{
+              font-weight: bold;
+              font-size: .3rem;
+              color: #111;
+            }
+            p{
+              font-size: .24rem;
+            }
+            .sgq_result_banji{
+              box-sizing: border-box;
+              height: 1.1rem;
+              padding-top: .15rem;
+              padding-bottom: .2rem;
+              line-height: .4rem;
+              span{
+                color: #777777;
+                b{
+                  color: #555555;
+                }
+              }
+            }
+            .sgq_result_jieshao{
+              border-top: 1px dashed #c9c9c9;
+              padding-top: .28rem;
+              color: #333;
+              line-height: .4rem;
+              height: 1.6rem;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp:4;
+            }
+            button{
+              width: 2.46rem;
+              height: .56rem;
+              background: linear-gradient(#07aaeb,#046edc);
+              border-radius: .28rem;
+              border: 0;
+              outline-style: none;
+              min-width: 110px;
+              min-height: 25px;
+              line-height: .56rem;
+              text-align: center;
+              margin-top: .33rem;
+              a{
+                display: block;
+                width: 100%;
+                height: 100%;
+                color: #fff;
+                font-size: .24rem;
+              }
+            }
+          }
+        }
+        .sgq_result_tuijian{
+          margin-top: .44rem;
+          overflow: hidden;
+          .sgq_result_tj1{
+            float: left;
+            width: 2.76rem;
+            height: 4.15rem;
+            margin-right: .45rem;
+            margin-left: .45rem;
+            img{
+              display: block;
+              margin: 0 auto;
+              width: 2.76rem;
+              height: 3.67rem;
+
+            }
+            p{
+              text-align: center;
+              font-size: .22rem;
+              color: #555;
+              line-height: .5rem;
+            }
+          }
+          .sgq_result_tj1:last-child{
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+//就业服务链
+.sgq_serve{
+  .sgq_serve_header{
+    width: 4.08rem;
+    height: 1.09rem;
+    background: url("../images/tupianqie_48.png") no-repeat;
+    background-size: 4.08rem 1.09rem;
+    margin: .6rem auto.56rem;
+  }
+  .sgq_serve_con{
+    text-align: center;
+    padding-bottom: .33rem;
+    img{
+      width: 5.49rem;
+      height: 5.2rem;
+    }
+  }
+}
+//就业成果
+.sgq_work{
+  .sgq_work_con{
+
+    .sgq_work_box{
+      width: 6.1rem;
+      height: 8.65rem;
+      margin: 0 auto;
+      ul{
+        li{
+          .sgq_work_info{
+            width: 2.8rem;
+            height: 3.85rem;
+          }
+          .sgq_work_info:nth-child(2n-1){
+            margin-right: .49rem;
+
+          }
+        }
+      }
+
+
+    }
   }
 
 }
 
 
 
-
-
 //公共标题
 .sgq_public_header{
   text-align: center;
+  margin-bottom: .54rem;
   h2{
     font-size: .36rem;
     color:#222;
-    margin-top: .42rem;
     line-height: .48rem;
+    padding-top: .52rem;
   }
   p{
     font-size: .24rem;
@@ -439,6 +606,39 @@ nav{
 }
 //公共选项卡
 .sgq_public_item{
+  width: 7.02rem;
+  margin: 0 auto;
+  height: .52rem;
+  border-bottom: 1px solid #b5b5b5;
+  margin-bottom: .44rem;
+  ul{
+    height: .52rem;
+    li{
+      line-height: .52rem;
+      border-bottom: 2px solid transparent;
+      text-align: center;
+      float: left;
+      margin-right: .56rem;
+      font-size: .24rem;
+      color: #404040;
+    }
+    .sgq_public_info.hot{
+      border-bottom: 2px solid #fe6e20;
+    }
+    li:last-child{
+      margin-right: 0;
+    }
+    .hot{
+      border-color: @bc;
+      font-weight: bold;
+      color: @bc;
+    }
+    a{
+      color: #fe6e20;
+    }
+
+
+  }
 
 }
 //公共更多
