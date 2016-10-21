@@ -32,6 +32,13 @@ $(function () {
         $(this).addClass('hot')
         newsSwiper.swipeTo( $(this).index() );
     });
+//    返回顶部
+
+    touch.on( $('.sgq_backTop'),"doubleTap", function () {
+        $("html,body").animate({
+            scrollTop:0
+        }, 500)
+    } );
     
     
     

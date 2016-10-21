@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=yes">
     <title>Document</title>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/iconfont.css">
@@ -985,7 +986,7 @@
     </section>
 
     <!--优逸知识库-->
-    <section class="sgq_knowlage">
+    <section class="sgq_knowlage ">
         <div class="sgq_public_item">
             <div class="sgq_news_title">
                 <span></span>优逸新闻
@@ -1037,15 +1038,60 @@
     <!--报名通道-->
     <section class="sgq_join">
         <div class="sgq_join_con">
-
+            <form action="">
+                <ul>
+                    <li>
+                        <p>姓名</p>
+                        <div>
+                            <input type="text" name="username" placeholder="必填" required>
+                        </div>
+                    </li>
+                    <li>
+                        <p>联系方式</p>
+                        <div>
+                            <input type="text" name="contact" placeholder="手机号／QQ／微信号" required>
+                        </div>
+                    </li>
+                    <li>
+                        <p>想学课程</p>
+                        <div>
+                                <select name="course" id="course">
+                                    <option value="">UI设计</option>
+                                    <option value="">UI设计</option>
+                                </select>
+                                <span></span>
+                                <i></i>
+                        </div>
+                    </li>
+                    <li>
+                        <p>开课时间</p>
+                        <div>
+                            <select name="time" id="time">
+                                <option value="">2016-11</option>
+                                <option value="">2016-12</option>
+                            </select>
+                            <span></span>
+                            <i></i>
+                        </div>
+                    </li>
+                </ul>
+                <div class="sgq_join_btn">
+                    <input type="submit" value="提交报名信息">
+                    <a  href="tel:电话号码">一键电话报名</a>
+                </div>
+            </form>
         </div>
     </section>
-    <!---->
+    <!--返回顶部-->
+    <section class="sgq_backTop">
+        ︽ 双击返回顶部
+    </section>
 <!--底部-->
     <section class="sgq_footer">
-        
+
     </section>
 <script src="js/swiper.min.js"></script>
+<script src="js/touch.js"></script>
 <script src="js/index.js"></script>
 </body>
 </html>

@@ -701,6 +701,17 @@ nav .hot {
   padding-top: .4rem;
   padding-bottom: .37rem;
 }
+.sgq_knowlage .sgq_news_title {
+  font-size: .28rem;
+  color: #111;
+  font-weight: bold;
+  float: left;
+}
+.sgq_knowlage .sgq_news_title span {
+  display: inline-block;
+  width: .27rem;
+  height: .31rem;
+}
 .sgq_knowlage .sgq_knowlage_con {
   width: 7.02rem;
   margin: 0 auto;
@@ -729,6 +740,130 @@ nav .hot {
 }
 .sgq_join {
   height: 8.46rem;
+}
+.sgq_join .sgq_join_con {
+  width: 6.34rem;
+  height: 7.4rem;
+  background: url("../images/tupianqie_64.png") no-repeat;
+  background-size: contain;
+  margin: .42rem auto;
+  padding-top: 1px;
+}
+.sgq_join .sgq_join_con ul {
+  padding-left: .7rem;
+  padding-right: .7rem;
+  padding-top: 2.18rem;
+}
+.sgq_join .sgq_join_con ul li {
+  height: .85rem;
+}
+.sgq_join .sgq_join_con ul li p {
+  float: left;
+  width: 1.15rem;
+  text-align: right;
+  line-height: .85rem;
+  font-size: .28rem;
+  color: #fff;
+}
+.sgq_join .sgq_join_con ul li div {
+  float: right;
+  position: relative;
+  height: .6rem;
+  width: 3.65rem;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: .1rem;
+}
+.sgq_join .sgq_join_con ul li div input,
+.sgq_join .sgq_join_con ul li div select {
+  height: .6rem;
+  width: 3.4rem;
+  border-radius: 5px;
+  border: 0;
+  outline-style: none;
+  font-size: .24rem;
+  line-height: .85rem;
+  padding-left: .25rem;
+  box-sizing: content-box;
+  color: #A9A9BB;
+}
+.sgq_join .sgq_join_con ul li div select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  line-height: .6rem;
+  position: relative;
+  z-index: 1;
+}
+.sgq_join .sgq_join_con ul li div span {
+  display: block;
+  border-top: .15rem solid #A9A9BB;
+  border-left: .09rem solid transparent;
+  border-right: .09rem solid transparent;
+  width: 0;
+  position: absolute;
+  right: .17rem;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 0;
+}
+.sgq_join .sgq_join_con ul li div i {
+  display: block;
+  width: 0;
+  position: absolute;
+  right: .48rem;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: .4rem;
+  border-left: 1px dashed #A9A9BB;
+}
+.sgq_join .sgq_join_con ul li div select::-ms-expand {
+  display: none;
+}
+.sgq_join .sgq_join_con .sgq_join_btn {
+  font-size: .24rem;
+  margin-top: .5rem;
+  text-align: justify;
+  padding: 0 .63rem;
+}
+.sgq_join .sgq_join_con .sgq_join_btn input {
+  color: #222;
+  background: #fff;
+  border: 0;
+  width: 2.26rem;
+  height: .6rem;
+  border-radius: .3rem;
+  vertical-align: middle;
+}
+.sgq_join .sgq_join_con .sgq_join_btn a {
+  display: inline-block;
+  color: #fff;
+  background: #fe6e20;
+  border: 0;
+  width: 2.26rem;
+  height: .6rem;
+  border-radius: .3rem;
+  line-height: .6rem;
+  vertical-align: middle;
+  text-align: center;
+}
+.sgq_join .sgq_join_con .sgq_join_btn:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.sgq_backTop {
+  background: #dcdcdc;
+  text-align: center;
+  height: .72rem;
+  font-size: .24rem;
+  color: #fff;
+  line-height: .72rem;
 }
 .sgq_public_header {
   text-align: center;
