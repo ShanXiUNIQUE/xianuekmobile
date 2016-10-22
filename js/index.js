@@ -41,7 +41,8 @@ $(function () {
             duration: 200
         });
     });
-    
+
+    $('.test-lazyload').picLazyLoad( {placeholder: 'images/blank.png'});
     
     
     

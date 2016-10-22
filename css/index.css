@@ -10,7 +10,7 @@ header .sgq_menu {
   float: left;
   width: .42rem;
   height: .30rem;
-  background: url("../images/tupianqie_09.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: .42rem .3rem;
   margin-left: .24rem;
 }
@@ -59,7 +59,7 @@ header .sgq_tel {
   float: right;
   width: .4rem;
   height: .4rem;
-  background: url("../images/tupianqie_06.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: .4rem .4rem;
   margin-right: .24rem;
 }
@@ -105,8 +105,11 @@ nav .hot {
   display: inline-block;
   width: .36rem;
   height: .28rem;
-  background: #fff;
+  color: #fff;
+  font-size: .28rem;
   vertical-align: middle;
+  line-height: .28rem;
+  text-align: center;
 }
 .sgq_banner .sgq_banner_info .sgq_banner_toutiao b {
   font-size: .24rem;
@@ -125,12 +128,16 @@ nav .hot {
 .sgq_banner .sgq_banner_info .sgq_banner_info_go {
   float: right;
 }
-.sgq_banner .sgq_banner_info .sgq_banner_info_go span {
+.sgq_banner .sgq_banner_info .sgq_banner_info_go a {
   display: inline-block;
   vertical-align: middle;
   width: .4rem;
   height: .4rem;
-  background: #fff;
+  border-radius: 50%;
+  line-height: .4rem;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
 }
 .sgq_train {
   background: #fff;
@@ -141,7 +148,7 @@ nav .hot {
   width: 3.96rem;
   height: 1.10rem;
   margin: 0 auto .56rem;
-  background: url("../images/tupianqie_20.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: 3.96rem 1.10rem;
 }
 .sgq_train .sgq_train_con {
@@ -167,8 +174,10 @@ nav .hot {
   display: inline-block;
   width: .56rem;
   height: .7rem;
-  background: url("../images/ui.svg") no-repeat;
-  background-size: .56rem .7rem;
+  color: #fff;
+  font-size: .56rem;
+  line-height: .7rem;
+  text-align: right;
   vertical-align: middle;
   margin-right: .10rem;
 }
@@ -253,7 +262,7 @@ nav .hot {
   display: block;
   width: 1.76rem;
   height: .7rem;
-  background: url("../images/tupianqie_30.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: 1.76rem .7rem;
 }
 .sgq_train .sgq_train_con ul li:first-child {
@@ -266,8 +275,6 @@ nav .hot {
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_title span {
   width: .56rem;
   height: .7rem;
-  background: url("../images/web.svg") no-repeat;
-  background-size: .56rem .7rem;
   color: #fe6e20;
 }
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_info {
@@ -277,7 +284,7 @@ nav .hot {
   color: #fe6e20;
 }
 .sgq_train .sgq_train_con ul li:last-child .sgq_train_info .sgq_train_btn a {
-  background: url("../images/tupianqie_33.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: 1.76rem .7rem;
 }
 .sgq_team {
@@ -289,7 +296,7 @@ nav .hot {
   margin-top: .54rem;
 }
 .sgq_team .sgq_team_con ul li {
-  background: url("../images/liuzhao.jpg") no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   width: 3.4rem;
   float: left;
@@ -308,7 +315,7 @@ nav .hot {
   border-radius: 50%;
   margin: 0 auto;
   margin-top: -0.8rem;
-  background: url("../images/liuzhao.jpg") no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 .sgq_team .sgq_team_con ul li .sgq_team_zhezhao .sgq_team_name {
@@ -396,7 +403,7 @@ nav .hot {
 .sgq_result .sgq_result_box ul li .sgq_result_zhanshi .sgq_result_img {
   width: 2.66rem;
   height: 5.09rem;
-  background: url("../images/sgq_shouji_03.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   margin-right: .45rem;
   margin-left: .45rem;
@@ -496,7 +503,7 @@ nav .hot {
 .sgq_serve .sgq_serve_header {
   width: 4.08rem;
   height: 1.09rem;
-  background: url("../images/tupianqie_48.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: 4.08rem 1.09rem;
   margin: .6rem auto.56rem;
 }
@@ -538,7 +545,7 @@ nav .hot {
   right: 0;
   width: 1.67rem;
   height: .4rem;
-  background: url("../images/mianshizuopin.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
 }
 .sgq_work .sgq_work_con .sgq_work_box ul li .sgq_work_info .sgq_work_stu {
@@ -744,7 +751,7 @@ nav .hot {
 .sgq_join .sgq_join_con {
   width: 6.34rem;
   height: 7.4rem;
-  background: url("../images/tupianqie_64.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   margin: .42rem auto;
   padding-top: 1px;
@@ -867,8 +874,9 @@ nav .hot {
 }
 .sgq_footer {
   height: 5.55rem;
-  background: url("../images/footer_12.png") bottom no-repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
+  background-position: bottom;
   margin-top: .68rem;
   position: relative;
 }
