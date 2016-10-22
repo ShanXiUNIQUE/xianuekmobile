@@ -1,0 +1,403 @@
+@bc:#0369db;
+@orange:#fe6e20;
+.left(){
+  margin-left: .24rem;
+}
+.right(){
+  margin-right: .24rem;
+}
+//顶部
+header{
+  height: .88rem;
+  background: @bc;
+  position: relative;
+  text-align: center;
+  min-height: 50px!important;
+  .sgq_menu{
+    margin-top: .29rem;
+    float: left;
+    width: .42rem;
+    height: .30rem;
+    background-repeat:  no-repeat;
+    background-size:.42rem .3rem;
+    .left();
+  }
+  .sgq_logo{
+    display: inline-block;
+    margin-top: .22rem;
+    a{
+      display: block;
+      width: 100%;
+      height:100%;
+      &>span{
+        //float: left;
+        display: inline-block;
+        width: .60rem;
+        height: .52rem;
+        color: #fff;
+        font-size: .5rem;
+        vertical-align: middle;
+      }
+    }
+
+    p{
+      display: inline-block;
+      //float: left;
+      margin-top: -.04rem;
+      vertical-align: middle;
+      b{
+        font-size: .26rem;
+        color: #fff;
+        display: block;
+      }
+      span{
+        font-size: .14rem;
+        color: #fff;
+        //float: left;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      i{
+        width: .02rem;
+        height: .02rem;
+        background: #fff;
+        //float: left;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+  }
+  .sgq_tel{
+    margin-top: .24rem;
+    float: right;
+    width: .4rem;
+    height: .4rem;
+    background-repeat:  no-repeat;
+    background-size: .4rem .4rem;
+    .right();
+  }
+}
+//导航
+nav{
+  padding: 0 0.24rem;
+  text-align: justify;
+  line-height: .88rem;
+  height: .88rem;
+  box-shadow: 0 1px 3px #c3c3c3;
+  position: relative;
+  z-index: 1;
+  a{
+    display: inline-block;
+    box-sizing: border-box;
+    height: .88rem;
+  }
+  &:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+  .hot{
+    border-bottom: 2px solid @bc;
+  }
+
+}
+//优逸新闻
+.sgq_news{
+  background: #f5f5f5;
+  padding-top: .53rem;
+  .sgq_public_item{
+    margin-bottom: 0;
+    ul{
+      float: right;
+    }
+    .sgq_news_title{
+      font-size: .28rem;
+      color: #333;
+      float: left;
+      span{
+        color: #888;
+        margin-left: .2rem;
+      }
+      .sgq_xinzixun{
+        display: inline-block;
+        height: .52rem;
+        border-bottom: 1px solid #333;
+      }
+    }
+
+  }
+  .sgq_news_box{
+    width: 7rem;
+    margin:  0 auto;
+    margin-top: 1px;
+    .sgq_news_info{
+      height: 2.23rem;
+      border-bottom: 1px dashed #dcdcdc;
+      .sgq_news_img{
+        float: left;
+        position: relative;
+        a{
+          display: block;
+          margin-top: .35rem;
+          width: 2rem;
+          height: 1.5rem;
+          img{
+            width: 2rem;
+            height: 1.5rem;
+          }
+        }
+        &>img{
+          position: absolute;
+          top: .35rem;
+          left: 0;
+          width: .34rem;
+          height: .14rem;
+        }
+      }
+      .sgq_news_xinxi{
+        float: left;
+        width: 4.73rem;
+        margin-left: .26rem;
+        margin-top: .35rem;
+        h3{
+          line-height: .26rem;
+          a{
+            color: #111;
+            font-size: .26rem;
+            font-weight: bold;
+          }
+        }
+        p{
+          font-size: .24rem;
+          color: #333;
+          margin-top: .24rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin-bottom: .3rem;
+        }
+        div{
+          span{
+            font-size: .24rem;
+            color: #666;
+            display: inline-block;
+            vertical-align: middle;
+            a{
+              color: #666;
+              display: inline-block;
+              vertical-align: middle;
+            }
+          }
+          .sgq_xian{
+            display: inline-block;
+            vertical-align: middle;
+            width: 1px;
+            background: #666;
+            height: .2rem;
+            margin: 0 .18rem;
+          }
+          .sgq_zan{
+            float: right;
+            .sgq_zan_img{
+              width: .16rem;
+              height: .16rem;
+              background: url("../images/tubiao_05.png");
+              background-repeat: no-repeat;
+              background-size: .16rem .16rem ;
+            }
+          }
+          .sgq_fenxiang{
+            float: right;
+            margin-right: .15rem;
+            .sgq_fenxiang_img{
+              width: .17rem;
+              height: .16rem;
+              background: url("../images/tubiao_03.png");
+              background-repeat: no-repeat;
+              background-size: .17rem .16rem ;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}
+//查看更多
+.sgq_backTop{
+  background: #dcdcdc;
+  text-align: center;
+  height: .72rem;
+  font-size: .24rem;
+  color: #fff;
+  line-height: .72rem;
+  margin-top: .62rem;
+}
+//底部
+.sgq_footer{
+  height: 5.55rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  margin-top: .68rem;
+  position: relative;
+  .sgq_footer_con{
+    height: 4rem;
+    .sgq_footer_box{
+      width: 3.15rem;
+      float: right;
+      margin-right: .6rem;
+      text-align: center;
+      letter-spacing: 3px;
+      h1{
+        font-size: .46rem;
+        color: #0f0f0f;
+        font-weight: bold;
+        margin-bottom: .05rem;
+      }
+      p{
+        font-size: .24rem;
+        color: #555;
+      }
+      .sgq_footer_goal{
+        font-size: .32rem;
+        color: #3b3b3b;
+        font-weight: bold;
+        margin-bottom: .12rem;
+        span{
+          vertical-align: middle;
+        }
+        i{
+          display: inline-block;
+          width: 2px;
+          height: 2px;
+          background: #3b3b3b;
+          vertical-align: middle;
+          margin: 0 .06rem;
+        }
+      }
+      .sgq_footer_tel{
+        letter-spacing: -1px;
+        margin-bottom: .2rem;
+        span{
+          font-weight: bold;
+        }
+      }
+      .sgq_footer_ewm{
+        img{
+          width: 1.87rem;
+          height: 1.86rem;
+
+        }
+      }
+      .sgq_footer_hao{
+        letter-spacing: normal;
+      }
+    }
+
+  }
+  .sgq_footer_copy{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: .2rem;
+    font-size: .18rem;
+    p{
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: clip;
+    }
+  }
+}
+
+//公共标题
+.sgq_public_header{
+  text-align: center;
+  margin-bottom: .54rem;
+  h2{
+    font-size: .36rem;
+    color:#222;
+    line-height: .48rem;
+    padding-top: .52rem;
+  }
+  p{
+    font-size: .24rem;
+    color:#2a2a2a;
+    line-height: .46rem;
+  }
+  div{
+    display: inline-block;
+    width: .2rem;
+    height: 1px;
+    background: @bc;
+    margin-top: .15rem;
+  }
+}
+//公共选项卡
+.sgq_public_item{
+  width: 7.02rem;
+  margin: 0 auto;
+  height: .52rem;
+  border-bottom: 1px solid #b5b5b5;
+  margin-bottom: .44rem;
+  ul{
+    height: .52rem;
+    li{
+      line-height: .52rem;
+      border-bottom: 2px solid transparent;
+      text-align: center;
+      float: left;
+      margin-right: .56rem;
+      font-size: .24rem;
+      color: #404040;
+    }
+    .sgq_public_info.hot{
+      border-bottom: 2px solid #fe6e20;
+    }
+    li:last-child{
+      margin-right: 0;
+    }
+    .hot{
+      border-color: @bc;
+      font-weight: bold;
+      color: @bc;
+    }
+    a{
+      color: #fe6e20;
+    }
+
+
+  }
+  &>a{
+    float: right;
+    font-size: .22rem;
+    color: #777;
+    margin-top: .1rem ;
+    margin-right: .4rem;
+  }
+  &>div{
+    float: left;
+  }
+
+}
+//公共更多
+.sgq_public_more {
+  margin: 0 auto;
+  width: 3.35rem;
+  height: .65rem;
+  background: @orange;
+  border-radius: .15rem;
+  line-height: .65rem;
+  font-size: .24rem;
+  a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+  }
+}

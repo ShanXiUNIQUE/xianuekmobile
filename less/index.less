@@ -48,20 +48,22 @@ header{
       b{
         font-size: .26rem;
         color: #fff;
+        display: block;
       }
       span{
         font-size: .14rem;
         color: #fff;
-        float: left;
-        margin-right: .09rem;
+        //float: left;
+        display: inline-block;
+        vertical-align: middle;
       }
       i{
         width: .02rem;
         height: .02rem;
         background: #fff;
-        float: left;
-        margin-right: .09rem;
-        margin-top: .1rem;
+        //float: left;
+        display: inline-block;
+        vertical-align: middle;
       }
     }
 
@@ -147,6 +149,7 @@ nav{
         vertical-align: middle;
         width: .4rem;
         height: .4rem;
+        font-size: .2rem;
         border-radius: 50%;
         line-height: .4rem;
         text-align: center;
@@ -682,6 +685,10 @@ nav{
         display: inline-block;
         width: .27rem;
         height: .31rem;
+        background: url("../images/news.png") no-repeat;
+        background-size: .27rem .31rem;
+        vertical-align: middle;
+        margin-right: .1rem;
       }
     }
     .sgq_pubulic_menu{
@@ -761,6 +768,27 @@ nav{
             height: .2rem;
             margin: 0 .18rem;
           }
+          .sgq_zan{
+            float: right;
+            .sgq_zan_img{
+              width: .16rem;
+              height: .16rem;
+              background: url("../images/tubiao_05.png");
+              background-repeat: no-repeat;
+              background-size: .16rem .16rem ;
+            }
+          }
+          .sgq_fenxiang{
+            float: right;
+            margin-right: .15rem;
+            .sgq_fenxiang_img{
+              width: .17rem;
+              height: .16rem;
+              background: url("../images/tubiao_03.png");
+              background-repeat: no-repeat;
+              background-size: .17rem .16rem ;
+            }
+          }
         }
       }
     }
@@ -783,6 +811,10 @@ nav{
       display: inline-block;
       width: .27rem;
       height: .31rem;
+      background: url("../images/knowlage.png") no-repeat;
+      background-size: .27rem .31rem;
+      vertical-align: middle;
+      margin-right: .1rem;
     }
   }
   .sgq_knowlage_con{
@@ -813,6 +845,15 @@ nav{
     }
     li:nth-child(2n+1){
       margin-right: .47rem;
+    }
+  }
+}
+//视频好课
+.sgq_vedio{
+  .sgq_news_title{
+    span{
+      background: url("../images/vedio.png") no-repeat;
+      background-size: .27rem .31rem;
     }
   }
 }
@@ -948,6 +989,8 @@ nav{
   color: #fff;
   line-height: .72rem;
 }
+
+//底部
 .sgq_footer{
   height: 5.55rem;
   background-repeat: no-repeat;
@@ -998,7 +1041,6 @@ nav{
         }
       }
       .sgq_footer_ewm{
-        margin-bottom: .08rem;
         img{
           width: 1.87rem;
           height: 1.86rem;

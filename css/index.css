@@ -39,20 +39,20 @@ header .sgq_logo p {
 header .sgq_logo p b {
   font-size: .26rem;
   color: #fff;
+  display: block;
 }
 header .sgq_logo p span {
   font-size: .14rem;
   color: #fff;
-  float: left;
-  margin-right: .09rem;
+  display: inline-block;
+  vertical-align: middle;
 }
 header .sgq_logo p i {
   width: .02rem;
   height: .02rem;
   background: #fff;
-  float: left;
-  margin-right: .09rem;
-  margin-top: .1rem;
+  display: inline-block;
+  vertical-align: middle;
 }
 header .sgq_tel {
   margin-top: .24rem;
@@ -133,6 +133,7 @@ nav .hot {
   vertical-align: middle;
   width: .4rem;
   height: .4rem;
+  font-size: .2rem;
   border-radius: 50%;
   line-height: .4rem;
   text-align: center;
@@ -624,6 +625,10 @@ nav .hot {
   display: inline-block;
   width: .27rem;
   height: .31rem;
+  background: url("../images/news.png") no-repeat;
+  background-size: .27rem .31rem;
+  vertical-align: middle;
+  margin-right: .1rem;
 }
 .sgq_news .sgq_public_item .sgq_pubulic_menu {
   margin-right: .25rem;
@@ -703,6 +708,27 @@ nav .hot {
   height: .2rem;
   margin: 0 .18rem;
 }
+.sgq_news .sgq_news_box .sgq_news_info .sgq_news_xinxi div .sgq_zan {
+  float: right;
+}
+.sgq_news .sgq_news_box .sgq_news_info .sgq_news_xinxi div .sgq_zan .sgq_zan_img {
+  width: .16rem;
+  height: .16rem;
+  background: url("../images/tubiao_05.png");
+  background-repeat: no-repeat;
+  background-size: .16rem .16rem ;
+}
+.sgq_news .sgq_news_box .sgq_news_info .sgq_news_xinxi div .sgq_fenxiang {
+  float: right;
+  margin-right: .15rem;
+}
+.sgq_news .sgq_news_box .sgq_news_info .sgq_news_xinxi div .sgq_fenxiang .sgq_fenxiang_img {
+  width: .17rem;
+  height: .16rem;
+  background: url("../images/tubiao_03.png");
+  background-repeat: no-repeat;
+  background-size: .17rem .16rem ;
+}
 .sgq_knowlage {
   background: #fff;
   padding-top: .4rem;
@@ -718,6 +744,10 @@ nav .hot {
   display: inline-block;
   width: .27rem;
   height: .31rem;
+  background: url("../images/knowlage.png") no-repeat;
+  background-size: .27rem .31rem;
+  vertical-align: middle;
+  margin-right: .1rem;
 }
 .sgq_knowlage .sgq_knowlage_con {
   width: 7.02rem;
@@ -744,6 +774,10 @@ nav .hot {
 }
 .sgq_knowlage .sgq_knowlage_con li:nth-child(2n+1) {
   margin-right: .47rem;
+}
+.sgq_vedio .sgq_news_title span {
+  background: url("../images/vedio.png") no-repeat;
+  background-size: .27rem .31rem;
 }
 .sgq_join {
   height: 8.46rem;
@@ -923,9 +957,6 @@ nav .hot {
 }
 .sgq_footer .sgq_footer_con .sgq_footer_box .sgq_footer_tel span {
   font-weight: bold;
-}
-.sgq_footer .sgq_footer_con .sgq_footer_box .sgq_footer_ewm {
-  margin-bottom: .08rem;
 }
 .sgq_footer .sgq_footer_con .sgq_footer_box .sgq_footer_ewm img {
   width: 1.87rem;

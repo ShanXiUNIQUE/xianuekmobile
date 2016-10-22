@@ -41,7 +41,7 @@ $(function () {
             duration: 200
         });
     });
-
+    //图片懒加载
     $('.test-lazyload').picLazyLoad( {placeholder: 'images/blank.png'});
     
     
