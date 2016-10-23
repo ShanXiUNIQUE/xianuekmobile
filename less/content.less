@@ -102,131 +102,167 @@ nav{
   }
 
 }
-//优逸新闻
-.sgq_news{
-  background: #f5f5f5;
-  padding-top: .53rem;
-  .sgq_public_item{
-    margin-bottom: 0;
-    ul{
-      float: right;
-    }
-    .sgq_news_title{
-      font-size: .28rem;
-      color: #333;
-      float: left;
+
+//内容
+.sgq_content{
+  padding-left: .24rem;
+  padding-right: .24rem;
+  margin-top: .42rem;
+  .sgq_con_head{
+    font-size: .36rem;
+    color: #222;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-bottom: 1px dashed #636363;
+    p{
+      font-size: .22rem;
+      color: #666;
+      margin-top: .26rem;
+      margin-bottom: .12rem;
       span{
-        color: #888;
-        margin-left: .2rem;
-      }
-      .sgq_xinzixun{
-        display: inline-block;
-        height: .52rem;
-        border-bottom: 1px solid #333;
+        margin-right: .5rem;
       }
     }
-
-  }
-  .sgq_news_box{
-    width: 7rem;
-    margin:  0 auto;
-    margin-top: 1px;
-    .sgq_news_info{
-      height: 2.23rem;
-      border-bottom: 1px dashed #dcdcdc;
-      .sgq_news_img{
-        float: left;
-        position: relative;
-        a{
-          display: block;
-          margin-top: .35rem;
-          width: 2rem;
-          height: 1.5rem;
-          img{
-            width: 2rem;
-            height: 1.5rem;
-          }
-        }
-        &>img{
-          position: absolute;
-          top: .35rem;
-          left: 0;
-          width: .34rem;
-          height: .14rem;
-        }
-      }
-      .sgq_news_xinxi{
-        float: left;
-        width: 4.73rem;
-        margin-left: .26rem;
-        margin-top: .35rem;
-        h3{
-          line-height: .26rem;
-          a{
-            color: #111;
-            font-size: .26rem;
-            font-weight: bold;
-          }
-        }
-        p{
-          font-size: .24rem;
-          color: #333;
-          margin-top: .24rem;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          margin-bottom: .3rem;
-        }
-        div{
-          line-height: .4rem;
-          span{
-            font-size: .24rem;
-            color: #666;
-            display: inline-block;
-            vertical-align: middle;
-            a{
-              color: #666;
-              display: inline-block;
-              vertical-align: middle;
-            }
-          }
-          .sgq_xian{
-            display: inline-block;
-            vertical-align: middle;
-            width: 1px;
-            background: #666;
-            height: .2rem;
-            margin: 0 .05rem;
-          }
-          .sgq_zan{
-            float: right;
-            .sgq_zan_img{
-              width: .16rem;
-              height: .16rem;
-              background: url("../images/tubiao_05.png");
-              background-repeat: no-repeat;
-              background-size: .16rem .16rem ;
-            }
-          }
-          .sgq_fenxiang{
-            float: right;
-            margin-right: .15rem;
-            .sgq_fenxiang_img{
-              width: .17rem;
-              height: .16rem;
-              background: url("../images/tubiao_03.png");
-              background-repeat: no-repeat;
-              background-size: .17rem .16rem ;
-            }
-          }
-        }
-      }
+    p:before{
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      background: #fd7b35;
+      vertical-align: middle;
+      margin-right: .1rem;
+      border-radius: 50%;
+      margin-left: 2px;
     }
   }
+  .sgq_con{
+    margin-top: .3rem;
+    margin-bottom: .43rem;
+  }
+  .sgq_con_zan{
+    height: .78rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #333;
+    span{
+      display: inline-block;
+      vertical-align: middle;
+      width: .78rem;
+      height: .78rem;
+      background: url("../images/zan.png") no-repeat;
+      background-size: .78rem .78rem;
+      margin-right: .3rem;
+    }
+    b{
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: bold;
+      margin-left: .3rem;
+    }
+  }
+  .sgq_con_fenxiang{
+    font-size: .24rem;
+    color: #555555;
+    margin-top: .3rem;
+    border-bottom: 1px dashed #a0a0a0;
+    padding-bottom: .15rem;
+    span{
+      display: inline-block;
+      vertical-align: middle;
+      width: .58rem;
+      height: .58rem;
+      margin-right: .26rem;
+      background-size: .58rem .58rem;
+      background-repeat: no-repeat;
 
+    }
+    span:nth-child(1){
+      background-image: url("../images/qqkj.png");
+      margin-left: .4rem;
+    }
+    span:nth-child(2){
+      background-image: url("../images/xl.png");
+    }
+    span:nth-child(3){
+      background-image: url("../images/wb.png");
+    }
+    span:nth-child(4){
+      background-image: url("../images/weixin.png");
+      margin-right: 0;
+    }
+  }
+  .sgq_con_link{
+    font-size: .24rem;
+    color: #555;
 
+    p{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      span{
+
+      }
+      a{
+        color: #0d4f9e;
+
+      }
+    }
+    p:first-child{
+      margin-top: .3rem;
+    }
+    p:last-child{
+      margin-top: .2rem;
+    }
+  }
 }
-//查看更多
+//热门推荐
+.sgq_tuijian{
+  padding-left: .24rem;
+  padding-right: .24rem;
+  margin-top: .55rem;
+  .sgq_tuijian_head{
+    border-bottom: 1px solid #cbcbcb;
+    height: .7rem;
+    box-sizing: border-box;
+    span{
+      display: inline-block;
+      height: .7rem;
+      line-height: .70rem;
+      font-size: .28rem;
+      color: @bc;
+      border-bottom: 2px solid @bc;
+      box-sizing: border-box;
+    }
+
+
+  }
+  ul{
+    padding-top: .23rem;
+    li a{
+      font-size: .24rem;
+      color: #555;
+      line-height: .38rem;
+      padding-left: .08rem;
+    }
+    li:before{
+      content: "";
+      display: inline-block;
+      width: 3px;
+      height: 3px;
+      background: #fd7b35;
+      vertical-align: middle;
+      margin-right: .1rem;
+      border-radius: 50%;
+      margin-left: 2px;
+    }
+  }
+}
+
+
+
+//返回顶部
 .sgq_backTop{
   background: #dcdcdc;
   text-align: center;
@@ -240,72 +276,47 @@ nav{
     width: .2rem;
     height: .21rem;
     vertical-align: middle;
-    background: url("../images/xiala.jpg") no-repeat;
+    background: url("../images/back.jpg") no-repeat;
     background-size: .2rem .21rem;
     margin-right: .1rem;
   }
 }
 //底部
 .sgq_footer{
-  height: 5.55rem;
+  height: 4.17rem;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
-  margin-top: .68rem;
+  margin-top: .30rem;
   position: relative;
   .sgq_footer_con{
-    height: 4rem;
-    .sgq_footer_box{
-      width: 3.15rem;
-      float: right;
-      margin-right: .6rem;
-      text-align: center;
-      letter-spacing: 3px;
-      h1{
-        font-size: .46rem;
-        color: #0f0f0f;
-        font-weight: bold;
-        margin-bottom: .05rem;
-      }
-      p{
-        font-size: .24rem;
-        color: #555;
-      }
-      .sgq_footer_goal{
-        font-size: .32rem;
-        color: #3b3b3b;
-        font-weight: bold;
-        margin-bottom: .12rem;
-        span{
-          vertical-align: middle;
-        }
-        i{
-          display: inline-block;
-          width: 2px;
-          height: 2px;
-          background: #3b3b3b;
-          vertical-align: middle;
-          margin: 0 .06rem;
-        }
-      }
-      .sgq_footer_tel{
-        letter-spacing: -1px;
-        margin-bottom: .2rem;
-        span{
-          font-weight: bold;
-        }
-      }
-      .sgq_footer_ewm{
-        img{
-          width: 1.87rem;
-          height: 1.86rem;
-
-        }
-      }
-      .sgq_footer_hao{
-        letter-spacing: normal;
-      }
+    height: 2.34rem;
+    width: 6.22rem;
+    margin:  0 auto;
+    border: 1px solid #bfbfbf;
+    border-radius: .16rem;
+    text-align: center;
+    line-height: 2.34rem;
+    margin-bottom: .21rem;
+    img:first-child{
+      width: 1.88rem;
+      height: 1.86rem;
+      vertical-align: middle;
     }
+    img:last-child{
+      width: 1.76rem;
+      height: 1.77rem;
+      vertical-align: middle;
+    }
+    span{
+      display: inline-block;
+      vertical-align: middle;
+      height: 1.85rem;
+      width: 1px;
+      background: linear-gradient(to bottom,transparent,#626262,transparent);
+      margin: 0 .53rem;
+    }
+
 
   }
   .sgq_footer_copy{
